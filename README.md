@@ -29,7 +29,7 @@ df.to_csv(csv_name)
 
 В итоге мы получили файл job.csv
 
-2. Загрузка файла:
+2. Загрузка файла в jupyter-notebook
 Список команд:
 import pandas as pd
 
@@ -42,7 +42,7 @@ df.set_index('index', inplace=True)
 
 df = head()
 
-3. Получение средней зарплаты
+3. Получение средней зарплаты в jupyter-notebook
 
 3.1 Разделение ЗП на валюты
 
