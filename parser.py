@@ -18,7 +18,7 @@ for i in range(number_of_pages):
 	    	for j in range(len(data[i]['items'])):
 	    	f.loc[ind] = data[i]['items'][j]
 	    	ind+=1
-csv_name = job".csv"
+csv_name = job.csv
 df.to_csv(csv_name)
 
 
