@@ -31,12 +31,14 @@ df.to_csv(csv_name)
 
 2. Загрузка файла в jupyter-notebook
 Список команд:
+
 import pandas as pd
 
 df = pd.read_csv("job.csv")
 
 
 df.rename(colums={'Unnamed: 0':'index'}, inplace=True)
+
 df.set_index('index', inplace=True)
 
 
